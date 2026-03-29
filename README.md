@@ -14,6 +14,15 @@ Unlike traditional weather clocks that use static `.png` or `.jpg` icons, the **
 * **The Orbital Engine:** The Sun and Moon follow a precise mathematical arc across your 64x64 matrix, transitioning perfectly from sunrise to a starlit night.
 * **Real-time Effects:** Includes animated "Shooting Stars," pulsing neon on the Toyota Center (TC) sign, and a flickering red aircraft warning light on the Williams Tower.
 
+* ## ✈️ Simulated Air Traffic Control
+
+The clock features a built-in **Air Traffic Simulator** that recreates the busy skies above Houston:
+
+* **Randomized Flight Paths:** Aircraft spawn at varied altitudes and speeds, traversing the skyline in both directions.
+* **Realistic Lighting:** Every plane features a high-intensity strobe light (alternating between Red and White) to mimic real-world aviation safety lights.
+* **Atmospheric Drift:** Planes experience slight vertical "drift" to simulate varying flight levels and approach patterns.
+* **Smart Cleanup:** An automated management system tracks active planes and safely removes them once they clear the 64-pixel boundary of your display.
+
 🌟 Key Features: Real-Time Orbital Engine: Unlike static weather apps, the Sun, Moon, and weather formations (Cloud Clusters, Rain, Storms) follow a mathematically calculated arc across the sky. This creates a "digital sundial" where you can estimate the time of day based on the icon's horizontal position. The Toyota Center (TC) Landmark: A custom-coded silhouette of the Toyota Center, featuring a glowing "TC" (Toyota) sign. 
 
 The signage and window lighting are dynamic, featuring a signature red night-time illumination cycle.Spaced-Out Weather Dynamics: Heavy weather (Overcast, Rain, Storms) is rendered as a formation of three sun-sized clouds that drift together along the orbital path, providing a more natural and immersive "front" than a single icon. High-Accuracy Lunar Tracking: Includes a real-time Moon Phase engine calibrated to the day of the year for precise rendering of waxing and waning cycles. Live Atmospheric Elements: Integrated support for randomized airplane strobe lights, shooting stars, and weather-dependent lightning strikes that originate from the moving cloud clusters.
