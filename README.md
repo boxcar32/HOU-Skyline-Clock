@@ -6,6 +6,14 @@ The Houston PiClock: A 64x64 LED matrix weather simulator. Features a procedural
 
 🚀 SpaceCity-Orbital-Clock: A high-fidelity Raspberry Pi weather simulator and digital sundial designed for a 64x64 RGB LED Matrix. This project treats the LED matrix as a "digital window" into downtown Houston, featuring a procedurally drawn skyline and advanced celestial physics.
 
+# 🚀 The Orbital Graphics Engine
+Unlike traditional weather clocks that use static `.png` or `.jpg` icons, the **SpaceCity-Orbital-Clock** features a custom-coded graphics engine. Every weather element is procedurally generated in real-time:
+
+* **Procedural Icons:** Weather states (Sun, Moon, Clouds, Storms) are drawn pixel-by-pixel using trigonometric functions.
+* **Dynamic Day/Night Cycle:** The Houston skyline transitions through 256 levels of color based on the actual position of the sun.
+* **The Orbital Engine:** The Sun and Moon follow a precise mathematical arc across your 64x64 matrix, transitioning perfectly from sunrise to a starlit night.
+* **Real-time Effects:** Includes animated "Shooting Stars," pulsing neon on the Toyota Center (TC) sign, and a flickering red aircraft warning light on the Williams Tower.
+
 🌟 Key Features: Real-Time Orbital Engine: Unlike static weather apps, the Sun, Moon, and weather formations (Cloud Clusters, Rain, Storms) follow a mathematically calculated arc across the sky. This creates a "digital sundial" where you can estimate the time of day based on the icon's horizontal position. The Toyota Center (TC) Landmark: A custom-coded silhouette of the Toyota Center, featuring a glowing "TC" (Toyota) sign. 
 
 The signage and window lighting are dynamic, featuring a signature red night-time illumination cycle.Spaced-Out Weather Dynamics: Heavy weather (Overcast, Rain, Storms) is rendered as a formation of three sun-sized clouds that drift together along the orbital path, providing a more natural and immersive "front" than a single icon. High-Accuracy Lunar Tracking: Includes a real-time Moon Phase engine calibrated to the day of the year for precise rendering of waxing and waning cycles. Live Atmospheric Elements: Integrated support for randomized airplane strobe lights, shooting stars, and weather-dependent lightning strikes that originate from the moving cloud clusters.
