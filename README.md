@@ -19,6 +19,8 @@ Install Dependencies:
 Ensure you have the rpi-rgb-led-matrix library installed, then install the Python requests module:Bashpip install requests
 Configure API & Location:Open the main script and update the following variables with your own credentials:API_KEY: Your OpenWeatherMap API key.LAT / LON: Your specific coordinates (Defaulted to Houston, TX).
 
-Run the Simulation:Bashsudo python3 piclock.py --led-cols=64 --led-rows=64 --led-slowdown-gpio=4
+Run the Simulation:Bash sudo python3 piclock.py --led-cols=64 --led-rows=64 --led-slowdown-gpio=4
 
-🎨 Visual LogicThe skyline is drawn procedurally, meaning no images are loaded. The Toyota Center and surrounding skyscrapers are built using geometric coordinates, allowing for maximum clarity on a 64x64 resolution. The "TC" sign uses a sine-wave pulse ($180 + 75 \sin(t \times 3)$) to simulate the glow of real neon.📜 LicenseThis project is released under the MIT License. Feel free to fork it and adapt the skyline for your own city!
+🎨 Visual LogicThe skyline is drawn procedurally, meaning no images are loaded. The Toyota Center and surrounding skyscrapers are built using geometric coordinates, allowing for maximum clarity on a 64x64 resolution. The "TC" sign uses a sine-wave pulse ($180 + 75 \sin(t \times 3)$) to simulate the glow of real neon.
+
+📜 LicenseThis project is released under the MIT License. Feel free to fork it and adapt the skyline for your own city!
