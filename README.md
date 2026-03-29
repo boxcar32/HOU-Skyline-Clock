@@ -12,8 +12,9 @@ The signage and window lighting are dynamic, featuring a signature red night-tim
 
 🛠️ Hardware RequirementsRaspberry Pi (Tested on Pi 4 / Pi 5)64x64 RGB LED Matrix (P3 or P2.5)Adafruit RGB Matrix Bonnet or HATHigh-performance power supply (5V 4A+ recommended)
 
-💻 Installation & SetupClone the Repository:Bashgit clone https://github.com/boxcar32/HOU-Skyline-Clock.git
+💻 Installation & Setup: Clone the Repository:Bashgit clone https://github.com/boxcar32/HOU-Skyline-Clock.git
 cd SpaceCity-Orbital-Clock
+
 Install Dependencies:
 Ensure you have the rpi-rgb-led-matrix library installed, then install the Python requests module:Bashpip install requests
 Configure API & Location:Open the main script and update the following variables with your own credentials:API_KEY: Your OpenWeatherMap API key.LAT / LON: Your specific coordinates (Defaulted to Houston, TX).
