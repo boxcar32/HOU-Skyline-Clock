@@ -21,6 +21,6 @@ Configure API & Location:Open the main script and update the following variables
 
 Run the Simulation: Bash sudo python3 piclock.py --led-cols=64 --led-rows=64 --led-slowdown-gpio=4
 
-🎨 Visual LogicThe skyline is drawn procedurally, meaning no images are loaded. The Toyota Center and surrounding skyscrapers are built using geometric coordinates, allowing for maximum clarity on a 64x64 resolution. The "TC" sign uses a sine-wave pulse ($180 + 75 \sin(t \times 3)$) to simulate the glow of real neon.
+🎨 Visual Logic: The skyline is drawn procedurally, meaning no images are loaded. The Toyota Center and surrounding skyscrapers are built using geometric coordinates, allowing for maximum clarity on a 64x64 resolution. The "TC" sign uses a sine-wave pulse ($180 + 75 \sin(t \times 3)$) to simulate the glow of real neon.
 
 📜 License: This project is released under the MIT License. Feel free to fork it and adapt the skyline for your own city!
